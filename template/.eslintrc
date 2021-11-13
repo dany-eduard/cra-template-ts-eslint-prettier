@@ -3,7 +3,8 @@
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"],
-        "paths": ["node_modules/", "node_modules/@types", "src/"]
+        "paths": ["node_modules/", "node_modules/@types", "src/"],
+        "moduleDirectory": ["node_modules/", "src/"]
       }
     },
     "jest": {
