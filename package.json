@@ -1,6 +1,6 @@
 {
   "name": "@dany-eduard/cra-template-ts-eslint-prettier",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React template in TypeScript preconfigured with Eslint and Prettier.",
   "author": "Daniel Eduardo Almagro",
   "license": "MIT",
