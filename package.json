@@ -1,57 +1,41 @@
 {
-  "name": "react-ts-eslint-prettier",
-  "version": "0.1.0",
-  "description": "Plantilla React TypeScript y eslint/prettier pre-configurados.",
+  "name": "@dany-eduard/cra-template-ts-eslint-prettier",
+  "version": "1.0.1",
+  "description": "React template in TypeScript preconfigured with Eslint and Prettier.",
   "author": "Daniel Eduardo Almagro",
   "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react-dom": "^17.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+  "main": "template.json",
+  "publishConfig": {
+    "access": "public"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "eslint",
+    "prettier",
+    "eslint-plugin",
+    "eslint-config",
+    "eslint-plugin-prettier",
+    "eslint-config-prettier",
+    "eslint-plugin-react",
+    "eslint-config-react",
+    "eslint-plugin-react-hooks"
+  ],
+  "homepage": "https://github.com/dany-eduard/cra-template-ts-eslint-prettier#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dany-eduard/cra-template-ts-eslint-prettier.git"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "engines": {
+    "node": ">=14"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "bugs": {
+    "url": "https://github.com/dany-eduard/cra-template-ts-eslint-prettier/issues"
   },
-  "devDependencies": {
-    "@types/react": "^17.0.34",
-    "@typescript-eslint/eslint-plugin": "^5.3.1",
-    "@typescript-eslint/parser": "^5.3.1",
-    "eslint-config-airbnb": "^19.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jest": "^25.2.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.27.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
-  }
+  "files": [
+    "template",
+    "template.json"
+  ]
 }
